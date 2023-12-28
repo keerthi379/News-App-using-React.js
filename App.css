@@ -1,0 +1,56 @@
+.header{
+  width: 98%;
+  padding: 10px 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+input{
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 10px gray;
+}
+
+.news-articles{
+  width: 98%;
+  padding: 10px 1%;
+  background-color: rgb(211, 237, 229);
+  display: flex;
+  column-gap: 3%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.news{
+  width: 20%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1px;
+  border-radius: 5px;
+}
+
+.news-img{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover ;
+  background-image: url("https://resource.rentcafe.com/image/upload/q_auto,f_auto,c_limit,w_576/s3/2/50552/image%20not%20available(12).jpg");
+}
+
+.news-img img{
+  width: 100%;
+}
+
+.source{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
